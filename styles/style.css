@@ -1,0 +1,99 @@
+
+:root {
+    --blue-color: #0090ff;
+    --orange-color: #ff9100;
+    --yellow-color:#e2e249;
+    --white-color: #ffffff;
+    --black-color: #000000;
+
+    --size-xxs: 0.5rem;
+    --size-xs: 0.75rem;
+    --size-sm: 0.875rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xl: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.5rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
+
+    --kaushan-font: 'Kaushan Script', cursive;
+    --poppins-font: 'Poppins', sans-serif;
+    --quicksand-font: 'Quicksand', sans-serif;
+    --raleway-font: 'Raleway', sans-serif;
+    --crafty-font:  'Crafty Girls', sans-serif;
+    --saturday-font: 'Better Saturday', sans-serif;
+    --better: 'Better Saturday', sans-serif;
+                                                
+                                                
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    line-height: calc(1em + 0.5rem);
+}
+*:before, *:after {
+    box-sizing: inherit;
+}
+
+h1 {
+    font-size: 1rem;
+}
+
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'General Sans', sans-serif;
+    overflow-x: hidden; 
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+button {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+
+a {
+    color: var(--text-color)
+}
+
+
+
+strong {
+    color: var(--yellow59-color);
+}
+
+/* Scrollbar */
+
+body::-webkit-scrollbar-track {
+    box-shadow: insert 0 0 0 rgba(240, 91, 91, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--yellow59-color);
+    outline: 1px solid var(--yellow59-color);
+    border-radius: 8px;
+}
+  
