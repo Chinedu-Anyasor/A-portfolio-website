@@ -9,7 +9,7 @@
     width: 100%;
     height: 100%;
     margin-bottom: -180px;
-    background-image: url(/border--1.png);
+    background-image: url(/border-1.png);
 }
 .about .overlay {
     position: absolute;
@@ -130,6 +130,19 @@
     .signature span {
         font-size: var(--size-base);
     }
+    .about {
+        margin-bottom: 10px;
+        background-image: none;
+    }
+    .about__content .bi-2 {
+        right: 30px;
+        top: 730px;
+    }
+    .about__description h3 {
+        font-size: var(--size-base);
+        width: 80px;
+        margin-left: 10px;
+    }
 }
 
 /* sm (Mobile Phones) */
@@ -170,7 +183,7 @@
 @media (min-width: 768px) {
     .about {
         margin-bottom: 20px;
-        background-image: url(/border--1.png);
+        background-image: url(/border-1.png);
     }
     .about__cover {
         margin-top: 60px;

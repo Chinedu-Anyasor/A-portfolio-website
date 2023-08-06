@@ -78,6 +78,11 @@
         margin-left: 20px;
         margin-right: 20px;
     }
+    .work__note h3 {
+        font-size: var(--size-sm);
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
 }
 
 /* sm (Mobile Phones) */

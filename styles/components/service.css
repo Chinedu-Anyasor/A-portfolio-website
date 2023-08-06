@@ -123,6 +123,9 @@
 
 /* xs (Mobile Phones) */
 @media (min-width: 369px) {
+    .service {
+        margin-top: 480px;
+    }
     .service__title {
         margin-top: 30px;
     }
@@ -137,6 +140,9 @@
     }
     .overlay-icon .bi2 {
         font-size: 100px;
+    }
+    .service__note p, .service__description p {
+        line-height: 1.45rem;
     }
 }
 
