@@ -36,7 +36,7 @@ header .hero__box {
 }
 .hero__box h1 span {
     font-family: var(--kaushan-font);
-    font-size: var(--size-6xl);
+    font-size: var(--size-4xl);
     letter-spacing: 0.13em;
     color: var(--white-color)
     
